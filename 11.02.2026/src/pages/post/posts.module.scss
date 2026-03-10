@@ -1,0 +1,43 @@
+.kafelek{
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: bolder;
+  display:grid;
+  color: #fff;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap: 0.3rem;
+  margin: 0.7rem;
+  div{
+    position: relative;
+    border: solid 4px #30332B;
+    border-radius: 7px;
+    border-collapse: collapse;
+    height: 40vh;
+    background-color: #565C49;
+    color: white;
+    header{
+      height: 20%;
+      width: 100%;
+      font-size: 2rem;
+      background-color: #788655;
+      color: #30332B;
+      text-align: center;
+
+    }
+    section{
+      margin-top: 0.2rem;
+      margin-left: 0.2rem;
+      font-size: 2rem;
+    }
+    &:hover {
+      border: solid 4px #374151;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+      header{
+        background-color: #95B153;
+      }
+    }
+
+  }
+
+}
+
